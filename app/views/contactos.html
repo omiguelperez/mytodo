@@ -1,0 +1,14 @@
+<p>Aqui mostraremos los contactos.</p>
+
+<table class="table">
+	<thead>
+		<th>Nombre</th>
+		<th>Telefono</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="contacto in Contactos">
+			<td>{{ contacto.nombre }}</td>
+			<td>{{ contacto.telefono }}</td>
+		</tr>
+	</tbody>
+</table>
