@@ -88,8 +88,13 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/routes/contactos.js"></script>
+        <script src="scripts/services/ContactosService.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/contactos.js"></script>
         <!-- endbuild -->
+
+      <!--include everything in scripts/ except files directly inside scripts (without subdirectory) -->
+      <!-- include: "type": "js", "files": ["scripts/**/*.js", "!scripts/*.js"] -->
 </body>
 </html>

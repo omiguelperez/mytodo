@@ -27,10 +27,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/contactos', {
-        templateUrl: 'views/contactos.html',
-        controller: 'ContactosCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
